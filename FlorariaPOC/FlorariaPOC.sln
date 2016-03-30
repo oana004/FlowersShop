@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlorariaPOC.Tests", "Florar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlorariaPOCData", "FlorariaPOCData\FlorariaPOCData.csproj", "{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{28470CA5-DACF-4AA3-90F3-3330D7F99C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatternConsole", "BuilderPatternConsole\BuilderPatternConsole.csproj", "{735197F1-81AD-4013-AEA2-7C0538DBAF14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735197F1-81AD-4013-AEA2-7C0538DBAF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735197F1-81AD-4013-AEA2-7C0538DBAF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735197F1-81AD-4013-AEA2-7C0538DBAF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735197F1-81AD-4013-AEA2-7C0538DBAF14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{735197F1-81AD-4013-AEA2-7C0538DBAF14} = {28470CA5-DACF-4AA3-90F3-3330D7F99C01}
 	EndGlobalSection
 EndGlobal

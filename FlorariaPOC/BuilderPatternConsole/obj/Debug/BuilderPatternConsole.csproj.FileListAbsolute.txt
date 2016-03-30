@@ -1,0 +1,4 @@
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole.exe
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.exe
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.pdb
