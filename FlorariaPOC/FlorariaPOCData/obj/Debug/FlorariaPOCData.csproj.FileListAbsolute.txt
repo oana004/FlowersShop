@@ -3,3 +3,8 @@ F:\master2\PA\FlorariaPOC\FlorariaPOCData\bin\Debug\FlorariaPOCData.pdb
 F:\master2\PA\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.csprojResolveAssemblyReference.cache
 F:\master2\PA\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.dll
 F:\master2\PA\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\FlorariaPOCData.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\FlorariaPOCData.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.csprojResolveAssemblyReference.cache
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.pdb

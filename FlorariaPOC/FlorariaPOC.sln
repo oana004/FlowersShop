@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlorariaPOC.Tests", "Florar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlorariaPOCData", "FlorariaPOCData\FlorariaPOCData.csproj", "{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlorariaPOCAbstractFactory", "FlorariaPOCAbstractFactory\FlorariaPOCAbstractFactory.csproj", "{4A63B578-F55D-4B1D-99C3-6B0686727A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F081A68D-15F7-4FA5-BEBF-DEB2A74B0C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
