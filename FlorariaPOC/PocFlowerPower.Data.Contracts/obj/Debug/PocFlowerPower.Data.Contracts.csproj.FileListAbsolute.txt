@@ -2,3 +2,6 @@ F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\PocFlowerPowe
 F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\PocFlowerPower.Data.Contracts.pdb
 F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.dll
 F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.pdb
+F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\POCFlowerPower.Model.dll
+F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\POCFlowerPower.Model.pdb
+F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.csprojResolveAssemblyReference.cache

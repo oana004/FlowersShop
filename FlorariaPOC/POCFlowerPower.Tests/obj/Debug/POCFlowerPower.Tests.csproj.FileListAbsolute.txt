@@ -61,3 +61,14 @@ F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\System.Net.Http.Format
 F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\obj\Debug\POCFlowerPower.Tests.csprojResolveAssemblyReference.cache
 F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\obj\Debug\POCFlowerPower.Tests.dll
 F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\obj\Debug\POCFlowerPower.Tests.pdb
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\FlorariaPOCData.dll
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\PocFlowerPower.Data.Contracts.dll
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\POCFlowerPower.Model.dll
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\FlorariaPOCData.pdb
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\PocFlowerPower.Data.Contracts.pdb
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\FlowersShop\FlorariaPOC\POCFlowerPower.Tests\bin\Debug\POCFlowerPower.Model.pdb

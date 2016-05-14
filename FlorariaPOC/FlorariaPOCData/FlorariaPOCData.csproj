@@ -79,6 +79,7 @@
     <Compile Include="Common\RepositoryProvider.cs" />
     <Compile Include="EFRepository.cs" />
     <Compile Include="FlowerPowerDbContext.cs" />
+    <Compile Include="FlowerPowerUnitOfWork.cs" />
     <Compile Include="Migrations\201605141814159_FirstInstall.cs" />
     <Compile Include="Migrations\201605141814159_FirstInstall.Designer.cs">
       <DependentUpon>201605141814159_FirstInstall.cs</DependentUpon>

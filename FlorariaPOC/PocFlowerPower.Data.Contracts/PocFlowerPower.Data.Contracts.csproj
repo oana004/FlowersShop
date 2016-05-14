@@ -42,7 +42,14 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="IEFRepository.cs" />
+    <Compile Include="IFlowerPowerUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\POCFlowerPower.Model\POCFlowerPower.Model.csproj">
+      <Project>{ddb52f1e-609f-4bc1-9fac-141547942a89}</Project>
+      <Name>POCFlowerPower.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
