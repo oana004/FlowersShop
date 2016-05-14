@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlorariaPOCData
+namespace PocFlowerPower.Data.Contracts
 {
-    class FlorariaPOCDbContext
+    public class Class1
     {
     }
 }

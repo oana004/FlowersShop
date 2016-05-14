@@ -7,6 +7,5 @@ c:\users\cmoraru\documents\visual studio 2015\Projects\ChainOfResponsibility\obj
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe.config
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.pdb
-F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.csprojResolveAssemblyReference.cache
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.exe
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.pdb

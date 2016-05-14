@@ -38,6 +38,30 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration">
+      <HintPath>..\EnterpriseLibrary\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -49,11 +73,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\FlowerPowerDbInitializer.cs" />
+    <Compile Include="Common\IRepositoryProvider.cs" />
+    <Compile Include="Common\RepositoryFactories.cs" />
+    <Compile Include="Common\RepositoryProvider.cs" />
+    <Compile Include="EFRepository.cs" />
+    <Compile Include="FlowerPowerDbContext.cs" />
+    <Compile Include="Migrations\201605141814159_FirstInstall.cs" />
+    <Compile Include="Migrations\201605141814159_FirstInstall.Designer.cs">
+      <DependentUpon>201605141814159_FirstInstall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605141818258_RemovedFKProductOrder.cs" />
+    <Compile Include="Migrations\201605141818258_RemovedFKProductOrder.Designer.cs">
+      <DependentUpon>201605141818258_RemovedFKProductOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605141820024_RemovedFKProductOrder1.cs" />
+    <Compile Include="Migrations\201605141820024_RemovedFKProductOrder1.Designer.cs">
+      <DependentUpon>201605141820024_RemovedFKProductOrder1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PocFlowerPower.Data.Contracts\PocFlowerPower.Data.Contracts.csproj">
+      <Project>{20d34e3d-f9f1-4834-b294-e12d5bd04373}</Project>
+      <Name>PocFlowerPower.Data.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POCFlowerPower.Model\POCFlowerPower.Model.csproj">
+      <Project>{ddb52f1e-609f-4bc1-9fac-141547942a89}</Project>
+      <Name>POCFlowerPower.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201605141814159_FirstInstall.resx">
+      <DependentUpon>201605141814159_FirstInstall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605141818258_RemovedFKProductOrder.resx">
+      <DependentUpon>201605141818258_RemovedFKProductOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605141820024_RemovedFKProductOrder1.resx">
+      <DependentUpon>201605141820024_RemovedFKProductOrder1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

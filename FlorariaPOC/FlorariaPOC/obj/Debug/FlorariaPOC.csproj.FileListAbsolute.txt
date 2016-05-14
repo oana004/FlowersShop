@@ -265,6 +265,5 @@ F:\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Owin.Security.Google.xml
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Owin.Security.Twitter.xml
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\bin\System.Web.Http.Owin.xml
-F:\FlowersShop\FlorariaPOC\FlorariaPOC\obj\Debug\FlorariaPOC.csprojResolveAssemblyReference.cache
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\obj\Debug\FlorariaPOC.dll
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\obj\Debug\FlorariaPOC.pdb

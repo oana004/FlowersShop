@@ -1,0 +1,4 @@
+F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\PocFlowerPower.Data.Contracts.dll
+F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\PocFlowerPower.Data.Contracts.pdb
+F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.dll
+F:\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.pdb
