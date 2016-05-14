@@ -13,6 +13,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{28
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatternConsole", "BuilderPatternConsole\BuilderPatternConsole.csproj", "{735197F1-81AD-4013-AEA2-7C0538DBAF14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlorariaPOCAbstractFactory", "FlorariaPOCAbstractFactory\FlorariaPOCAbstractFactory.csproj", "{4A63B578-F55D-4B1D-99C3-6B0686727A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactConsole", "AbstractFactConsole\AbstractFactConsole.csproj", "{86B54E20-B8E6-40D3-9E16-20A731EDEE98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton\Singleton.csproj", "{69D2F2D3-9456-4378-BD0C-7166C7256ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{637DD695-75E3-4BD6-BA3B-F220D4399898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POCFlowerPower", "POCFlowerPower\POCFlowerPower.csproj", "{3AC0CF7E-2589-4124-88D6-275C27283712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POCFlowerPower.Tests", "POCFlowerPower.Tests\POCFlowerPower.Tests.csproj", "{DA2B35DF-EEBC-4CBA-9496-FDFD40B1C13C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,11 +47,39 @@ Global
 		{735197F1-81AD-4013-AEA2-7C0538DBAF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735197F1-81AD-4013-AEA2-7C0538DBAF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735197F1-81AD-4013-AEA2-7C0538DBAF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B54E20-B8E6-40D3-9E16-20A731EDEE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B54E20-B8E6-40D3-9E16-20A731EDEE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B54E20-B8E6-40D3-9E16-20A731EDEE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B54E20-B8E6-40D3-9E16-20A731EDEE98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D2F2D3-9456-4378-BD0C-7166C7256ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D2F2D3-9456-4378-BD0C-7166C7256ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D2F2D3-9456-4378-BD0C-7166C7256ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D2F2D3-9456-4378-BD0C-7166C7256ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637DD695-75E3-4BD6-BA3B-F220D4399898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637DD695-75E3-4BD6-BA3B-F220D4399898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637DD695-75E3-4BD6-BA3B-F220D4399898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637DD695-75E3-4BD6-BA3B-F220D4399898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC0CF7E-2589-4124-88D6-275C27283712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC0CF7E-2589-4124-88D6-275C27283712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC0CF7E-2589-4124-88D6-275C27283712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC0CF7E-2589-4124-88D6-275C27283712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2B35DF-EEBC-4CBA-9496-FDFD40B1C13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2B35DF-EEBC-4CBA-9496-FDFD40B1C13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2B35DF-EEBC-4CBA-9496-FDFD40B1C13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2B35DF-EEBC-4CBA-9496-FDFD40B1C13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{735197F1-81AD-4013-AEA2-7C0538DBAF14} = {28470CA5-DACF-4AA3-90F3-3330D7F99C01}
+		{4A63B578-F55D-4B1D-99C3-6B0686727A73} = {28470CA5-DACF-4AA3-90F3-3330D7F99C01}
+		{86B54E20-B8E6-40D3-9E16-20A731EDEE98} = {28470CA5-DACF-4AA3-90F3-3330D7F99C01}
+		{69D2F2D3-9456-4378-BD0C-7166C7256ACD} = {28470CA5-DACF-4AA3-90F3-3330D7F99C01}
+		{637DD695-75E3-4BD6-BA3B-F220D4399898} = {28470CA5-DACF-4AA3-90F3-3330D7F99C01}
 	EndGlobalSection
 EndGlobal

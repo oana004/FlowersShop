@@ -1,0 +1,16 @@
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\bin\Debug\Singleton.exe.config
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\bin\Debug\Singleton.exe
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\bin\Debug\Singleton.pdb
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\obj\Debug\Singleton.exe
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\obj\Debug\Singleton.pdb
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\bin\Debug\nunit.framework.dll
+c:\users\cmoraru\documents\visual studio 2015\Projects\Singleton\Singleton\bin\Debug\nunit.framework.xml
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.exe.config
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.exe
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.pdb
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.exe
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.pdb
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\nunit.framework.dll
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\nunit.framework.xml
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache

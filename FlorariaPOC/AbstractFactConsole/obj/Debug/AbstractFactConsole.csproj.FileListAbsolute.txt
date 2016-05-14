@@ -1,0 +1,8 @@
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.exe.config
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.exe
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.pdb
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\FlorariaPOCAbstractFactory.dll
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\FlorariaPOCAbstractFactory.pdb
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.csprojResolveAssemblyReference.cache
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.exe
+F:\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.pdb

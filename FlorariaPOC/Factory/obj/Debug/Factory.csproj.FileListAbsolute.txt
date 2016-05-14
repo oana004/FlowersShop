@@ -1,0 +1,12 @@
+c:\users\cmoraru\documents\visual studio 2015\Projects\Factory\bin\Debug\Factory.exe.config
+c:\users\cmoraru\documents\visual studio 2015\Projects\Factory\bin\Debug\Factory.exe
+c:\users\cmoraru\documents\visual studio 2015\Projects\Factory\bin\Debug\Factory.pdb
+c:\users\cmoraru\documents\visual studio 2015\Projects\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+c:\users\cmoraru\documents\visual studio 2015\Projects\Factory\obj\Debug\Factory.exe
+c:\users\cmoraru\documents\visual studio 2015\Projects\Factory\obj\Debug\Factory.pdb
+F:\FlowersShop\FlorariaPOC\Factory\bin\Debug\Factory.exe.config
+F:\FlowersShop\FlorariaPOC\Factory\bin\Debug\Factory.exe
+F:\FlowersShop\FlorariaPOC\Factory\bin\Debug\Factory.pdb
+F:\FlowersShop\FlorariaPOC\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+F:\FlowersShop\FlorariaPOC\Factory\obj\Debug\Factory.exe
+F:\FlowersShop\FlorariaPOC\Factory\obj\Debug\Factory.pdb
