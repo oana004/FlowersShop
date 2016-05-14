@@ -2,3 +2,8 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternCon
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole.pdb
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.exe
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.pdb
+F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole.exe
+F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole.pdb
+F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.exe
+F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.pdb
+F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.csprojResolveAssemblyReference.cache

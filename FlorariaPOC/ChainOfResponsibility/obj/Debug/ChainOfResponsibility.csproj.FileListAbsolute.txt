@@ -1,0 +1,12 @@
+c:\users\cmoraru\documents\visual studio 2015\Projects\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe.config
+c:\users\cmoraru\documents\visual studio 2015\Projects\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe
+c:\users\cmoraru\documents\visual studio 2015\Projects\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.pdb
+c:\users\cmoraru\documents\visual studio 2015\Projects\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.csprojResolveAssemblyReference.cache
+c:\users\cmoraru\documents\visual studio 2015\Projects\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.exe
+c:\users\cmoraru\documents\visual studio 2015\Projects\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.pdb
+F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe.config
+F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe
+F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.pdb
+F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.csprojResolveAssemblyReference.cache
+F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.exe
+F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.pdb

@@ -1,0 +1,5 @@
+F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstractFactory.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstractFactory.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.csprojResolveAssemblyReference.cache
+F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.pdb
