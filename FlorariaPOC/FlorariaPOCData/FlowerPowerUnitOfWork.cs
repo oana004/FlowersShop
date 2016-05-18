@@ -62,7 +62,7 @@ namespace FlorariaPOCData
 
         private DbContext DbContext { get; set; }
 
-        IEFRepository<User> IFlowerPowerUnitOfWork.Users
+     /*   IEFRepository<User> IFlowerPowerUnitOfWork.Users
         {
             get
             {
@@ -85,7 +85,7 @@ namespace FlorariaPOCData
                 throw new NotImplementedException();
             }
         }
-
+*/
         #region IDisposable
 
         public void Dispose()

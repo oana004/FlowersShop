@@ -318,6 +318,20 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PocFlowerPower.Data.Contracts\PocFlowerPower.Data.Contracts.csproj">
+      <Project>{20D34E3D-F9F1-4834-B294-E12D5BD04373}</Project>
+      <Name>PocFlowerPower.Data.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POCFlowerPower.Model\POCFlowerPower.Model.csproj">
+      <Project>{DDB52F1E-609F-4BC1-9FAC-141547942A89}</Project>
+      <Name>POCFlowerPower.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POCFlowerPower\POCFlowerPower.csproj">
+      <Project>{3AC0CF7E-2589-4124-88D6-275C27283712}</Project>
+      <Name>POCFlowerPower</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

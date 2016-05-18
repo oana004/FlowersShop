@@ -8,6 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using PocFlowerPower.Data.Contracts;
+using POCFlowerPower.Common;
+using POCFlowerPower.Model;
 using POCFlowerPower.Models;
 
 namespace POCFlowerPower.Controllers
@@ -18,14 +21,24 @@ namespace POCFlowerPower.Controllers
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
+        private UnitOfWorkManager _unitOfWorkManager;
+        private readonly IFlowerPowerUnitOfWork _uofContext;
+
+
         public AccountController()
         {
+
+            _unitOfWorkManager = new UnitOfWorkManager();
+            _uofContext = _unitOfWorkManager.GetUofContext();
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
             SignInManager = signInManager;
+
+            _unitOfWorkManager = new UnitOfWorkManager();
+            _uofContext = _unitOfWorkManager.GetUofContext();
         }
 
         public ApplicationSignInManager SignInManager
@@ -153,6 +166,16 @@ namespace POCFlowerPower.Controllers
             {
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
                 var result = await UserManager.CreateAsync(user, model.Password);
+                var userToBeSaved = new User()
+                {
+                    UserName = model.Email,
+                    Password = model.Password,
+                    Email = model.Email, 
+                    Birthdate = DateTime.Now
+
+                };
+                _uofContext.Users.Add(userToBeSaved);
+                _uofContext.Commit();
                 if (result.Succeeded)
                 {
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);

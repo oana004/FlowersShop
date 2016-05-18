@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
+using PocFlowerPower.Data.Contracts;
 using POCFlowerPower.Common;
 
 namespace POCFlowerPower.Controllers
@@ -12,10 +13,12 @@ namespace POCFlowerPower.Controllers
     {
         // GET: Test
         private UnitOfWorkManager _unitOfWorkManager;
+        private readonly IFlowerPowerUnitOfWork _uofContext;
 
         public TestController()
         {
             _unitOfWorkManager = new UnitOfWorkManager();
+            _uofContext = _unitOfWorkManager.GetUofContext();
         }
 
       /*  public ActionResult Index()
@@ -25,9 +28,9 @@ namespace POCFlowerPower.Controllers
         }*/
 
         public string Get()
-        {
-            var uofctx = _unitOfWorkManager.GetUofContext();
-            var flowersfamily = uofctx.ProductFamilies.GetAll();
+        { ///Session.
+           
+            var flowersfamily = _uofContext.ProductFamilies.GetAll();
             var x = flowersfamily.Select(a => a.FamilyName).FirstOrDefault();
             return x;
         }

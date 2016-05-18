@@ -16,6 +16,9 @@ using Microsoft.Owin.Security.OAuth;
 using FlorariaPOC.Models;
 using FlorariaPOC.Providers;
 using FlorariaPOC.Results;
+using PocFlowerPower.Data.Contracts;
+using POCFlowerPower.Common;
+using POCFlowerPower.Model;
 
 namespace FlorariaPOC.Controllers
 {
@@ -25,9 +28,15 @@ namespace FlorariaPOC.Controllers
     {
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
+        private UnitOfWorkManager _unitOfWorkManager;
+        private readonly IFlowerPowerUnitOfWork _uofContext;
 
+       
         public AccountController()
         {
+
+            _unitOfWorkManager = new UnitOfWorkManager();
+            _uofContext = _unitOfWorkManager.GetUofContext();
         }
 
         public AccountController(ApplicationUserManager userManager,
@@ -35,6 +44,9 @@ namespace FlorariaPOC.Controllers
         {
             UserManager = userManager;
             AccessTokenFormat = accessTokenFormat;
+
+            _unitOfWorkManager = new UnitOfWorkManager();
+            _uofContext = _unitOfWorkManager.GetUofContext();
         }
 
         public ApplicationUserManager UserManager
@@ -329,6 +341,15 @@ namespace FlorariaPOC.Controllers
             }
 
             var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
+            var userToBeSaved = new User()
+            {
+                UserName =model.Email,
+                Password = model.Password,
+                Email = model.Email
+
+            };
+            _uofContext.Users.Add(userToBeSaved);
+
 
             IdentityResult result = await UserManager.CreateAsync(user, model.Password);
 
@@ -358,6 +379,7 @@ namespace FlorariaPOC.Controllers
             }
 
             var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
+
 
             IdentityResult result = await UserManager.CreateAsync(user);
             if (!result.Succeeded)
