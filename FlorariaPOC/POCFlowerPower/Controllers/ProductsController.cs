@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using FlorariaPOCData;
 using PocFlowerPower.Data.Contracts;
 using POCFlowerPower.Common;
+using POCFlowerPower.Filters;
 using POCFlowerPower.Model;
 using POCFlowerPower.Services;
 
@@ -20,7 +21,7 @@ namespace POCFlowerPower.Controllers
         private UnitOfWorkManager _unitOfWorkManager;
         private readonly IFlowerPowerUnitOfWork _uofContext;
 
-
+        
         public ProductsController()
         {
 
@@ -28,8 +29,9 @@ namespace POCFlowerPower.Controllers
             _uofContext = _unitOfWorkManager.GetUofContext();
         }
         // GET: Products
+        [AuthLog(Roles = "Admin")]
         public ActionResult Index()
-        {
+        { /*Session.a*/
             return View(db.Products.ToList());
         }
 
