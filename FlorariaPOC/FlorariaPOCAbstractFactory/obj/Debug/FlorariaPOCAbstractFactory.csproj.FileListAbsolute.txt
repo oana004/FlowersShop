@@ -2,3 +2,8 @@ F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstr
 F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstractFactory.pdb
 F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.dll
 F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstractFactory.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstractFactory.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.csprojResolveAssemblyReference.cache
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.pdb

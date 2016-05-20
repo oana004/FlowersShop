@@ -9,3 +9,9 @@ F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.pdb
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.exe
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe.config
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.csprojResolveAssemblyReference.cache
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.exe
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.pdb

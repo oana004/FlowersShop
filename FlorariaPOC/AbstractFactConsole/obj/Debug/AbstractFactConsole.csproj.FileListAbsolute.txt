@@ -6,3 +6,11 @@ F:\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\FlorariaPOCAbstractFact
 F:\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.csprojResolveAssemblyReference.cache
 F:\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.exe
 F:\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.exe.config
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.exe
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\FlorariaPOCAbstractFactory.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\FlorariaPOCAbstractFactory.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.csprojResolveAssemblyReference.cache
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.exe
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.pdb

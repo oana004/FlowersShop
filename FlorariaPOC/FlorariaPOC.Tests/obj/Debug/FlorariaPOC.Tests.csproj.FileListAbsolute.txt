@@ -192,3 +192,18 @@ F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Owin.Security.C
 F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\obj\Debug\FlorariaPOC.Tests.csprojResolveAssemblyReference.cache
 F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\obj\Debug\FlorariaPOC.Tests.dll
 F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\obj\Debug\FlorariaPOC.Tests.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\PocFlowerPower.Data.Contracts.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.Model.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\FlorariaPOCData.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\PocFlowerPower.Data.Contracts.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.Model.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\FlorariaPOCData.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml

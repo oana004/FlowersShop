@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Build.Framework;
 
 namespace POCFlowerPower.Model
 {
@@ -21,7 +22,9 @@ Active BIT,
 CONSTRAINT[pk_userId] PRIMARY KEY CLUSTERED([UserId] ASC),
 )*/
         public int Id { get; set; }
+        [Required]
         public string UserName { get; set; }
+        [Required]
         public string Password { get; set; }
         public string FullName { get; set; }
         public DateTime Birthdate { get; set; }

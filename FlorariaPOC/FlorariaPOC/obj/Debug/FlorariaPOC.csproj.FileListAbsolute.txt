@@ -267,3 +267,16 @@ F:\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Owin.Security.MicrosoftAcco
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\bin\System.Web.Http.Owin.xml
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\obj\Debug\FlorariaPOC.dll
 F:\FlowersShop\FlorariaPOC\FlorariaPOC\obj\Debug\FlorariaPOC.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\PocFlowerPower.Data.Contracts.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\POCFlowerPower.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\POCFlowerPower.Model.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Practices.Unity.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\FlorariaPOCData.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Practices.ServiceLocation.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\PocFlowerPower.Data.Contracts.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\POCFlowerPower.Model.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\POCFlowerPower.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Practices.Unity.xml
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\FlorariaPOCData.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC\bin\Microsoft.Practices.ServiceLocation.xml

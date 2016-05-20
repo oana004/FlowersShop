@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Build.Framework;
 
 namespace POCFlowerPower.Model
 {
@@ -20,9 +21,13 @@ CONSTRAINT [pk_PaymentId] PRIMARY KEY CLUSTERED ([PaymentId] ASC),
 )*/
     {
        public int Id { get; set; }
+       [Required]
        public int CVV { get; set; }
+       [Required]
        public string AccountNumber { get; set; }
+       [Required]
        public DateTime CardExpirationDate { get; set; }
+       [Required]
        public string CardHoulder { get; set; }
        public string TrasactionStatus { get; set; }
        public string PaymentDetails { get; set; }

@@ -92,6 +92,18 @@
     <Compile Include="Migrations\201605141820024_RemovedFKProductOrder1.Designer.cs">
       <DependentUpon>201605141820024_RemovedFKProductOrder1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605201113176_test_oana_serviciu.cs" />
+    <Compile Include="Migrations\201605201113176_test_oana_serviciu.Designer.cs">
+      <DependentUpon>201605201113176_test_oana_serviciu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605201118083_test-oana.cs" />
+    <Compile Include="Migrations\201605201118083_test-oana.Designer.cs">
+      <DependentUpon>201605201118083_test-oana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605201131390_addimage.cs" />
+    <Compile Include="Migrations\201605201131390_addimage.Designer.cs">
+      <DependentUpon>201605201131390_addimage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -118,6 +130,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605141820024_RemovedFKProductOrder1.resx">
       <DependentUpon>201605141820024_RemovedFKProductOrder1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605201113176_test_oana_serviciu.resx">
+      <DependentUpon>201605201113176_test_oana_serviciu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605201118083_test-oana.resx">
+      <DependentUpon>201605201118083_test-oana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605201131390_addimage.resx">
+      <DependentUpon>201605201131390_addimage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

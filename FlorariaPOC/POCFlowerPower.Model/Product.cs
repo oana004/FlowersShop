@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Build.Framework;
 
 namespace POCFlowerPower.Model
 {
@@ -20,10 +21,12 @@ CONSTRAINT [fk_ProductFamilyId] FOREIGN KEY ([ProductFamilyId]) REFERENCES [dbo]
     {
 
         public int Id { get; set; }
+        [Required]
         public string ProductName { get; set; }
         public double Price { get; set; }
         public double DiscountVal { get; set; }
         public virtual ProductFamily ProductFamily { get; set; }
         public string ProductDescription { get; set; }
+        public byte[] ProductImage { get; set; }
     }
 }

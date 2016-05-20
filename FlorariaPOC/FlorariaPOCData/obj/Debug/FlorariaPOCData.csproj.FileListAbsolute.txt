@@ -33,3 +33,28 @@ F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.
 F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.csproj.GenerateResource.Cache
 F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.RemovedFKProductOrder.resources
 F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.RemovedFKProductOrder1.resources
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\FlorariaPOCData.dll.config
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.SqlServer.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\PocFlowerPower.Data.Contracts.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\POCFlowerPower.Model.dll
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\PocFlowerPower.Data.Contracts.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\POCFlowerPower.Model.pdb
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.xml
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.SqlServer.xml
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.csprojResolveAssemblyReference.cache
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.FirstInstall.resources
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.RemovedFKProductOrder.resources
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.RemovedFKProductOrder1.resources
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.csproj.GenerateResource.Cache
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.test_oana_serviciu.resources
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.testoana.resources
+E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.addimage.resources

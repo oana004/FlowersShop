@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Build.Framework;
 
 namespace POCFlowerPower.Model
 {
@@ -16,6 +17,7 @@ CONSTRAINT [pk_ProductFamilyId] PRIMARY KEY CLUSTERED ([ProductFamilyId] ASC),
     public class ProductFamily
     {
         public int Id { get; set; }
+        [Required]
         public string FamilyName { get; set; }
         public string Specifications { get; set; }
 
