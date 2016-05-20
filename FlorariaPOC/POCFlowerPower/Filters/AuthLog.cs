@@ -2,15 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http.Controllers;
 using System.Web.Mvc;
+using Microsoft.AspNet.Identity;
+using PocFlowerPower.Data.Contracts;
+using POCFlowerPower.Common;
 
 namespace POCFlowerPower.Filters
 {
     public class AuthLogAttribute : AuthorizeAttribute
     {
+        private UnitOfWorkManager _unitOfWorkManager;
+        private IFlowerPowerUnitOfWork _uofContext;
+
+
         public AuthLogAttribute()
         {
             View = "AuthorizeFailed";
+            _unitOfWorkManager = new UnitOfWorkManager();
+            _uofContext = _unitOfWorkManager.GetUofContext();
         }
 
         public string View { get; set; }
@@ -19,40 +29,33 @@ namespace POCFlowerPower.Filters
         /// Check for Authorization
         /// </summary>
         /// <param name="filterContext"></param>
-        public override void OnAuthorization(AuthorizationContext filterContext)
-        {
-            base.OnAuthorization(filterContext);
-            IsUserAuthorized(filterContext);
-        }
+       
 
-        /// <summary>
-        /// Method to check if the user is Authorized or not
-        /// if yes continue to perform the action else redirect to error page
-        /// </summary>
-        /// <param name="filterContext"></param>
-        private void IsUserAuthorized(AuthorizationContext filterContext)
+        protected override bool AuthorizeCore(HttpContextBase httpContext)
         {
-            // If the Result returns null then the user is Authorized 
-            if (filterContext.Result == null)
-                return;
-
-            //If the user is Un-Authorized then Navigate to Auth Failed View 
-            if (filterContext.HttpContext.User.Identity.IsAuthenticated)
+            var allowedroles = this.Roles;
+            var username = httpContext.User.Identity.GetUserName().ToString();
+            var userRole = _uofContext.UserRoles.GetUserRoleByUsername(username);
+            bool authorize = false;
+            var rolesList = allowedroles.Split(',');
+            foreach (var role in rolesList)
             {
-
-                // var result = new ViewResult { ViewName = View };
-                var vr = new ViewResult();
-                vr.ViewName = View;
-
-                ViewDataDictionary dict = new ViewDataDictionary();
-                dict.Add("Message", "Sorry you are not Authorized to Perform this Action");
-
-                vr.ViewData = dict;
-
-                var result = vr;
-
-                filterContext.Result = result;
+               if(role.ToString().ToLower().Equals(userRole.ToLower()))
+                {
+                    authorize = true; /* return true if Entity has current user(active) with specific role */
+                }
+                break;
             }
+            return authorize;
         }
-    }
+
+        protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
+        {
+            filterContext.Result = new HttpUnauthorizedResult();
+        }
+    
+
+
+
+}
 }

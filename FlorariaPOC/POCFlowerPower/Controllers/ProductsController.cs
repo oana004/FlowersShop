@@ -29,7 +29,7 @@ namespace POCFlowerPower.Controllers
             _uofContext = _unitOfWorkManager.GetUofContext();
         }
         // GET: Products
-        [AuthLog(Roles = "Admin")]
+        [AuthLog(Roles = "Admin, Abc")]
         public ActionResult Index()
         { /*Session.a*/
             return View(db.Products.ToList());
