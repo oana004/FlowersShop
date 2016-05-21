@@ -21,3 +21,4 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\Singleton\Singlet
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.exe
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.pdb
+F:\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache

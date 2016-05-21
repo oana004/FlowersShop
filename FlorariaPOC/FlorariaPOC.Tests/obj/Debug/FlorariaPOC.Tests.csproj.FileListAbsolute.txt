@@ -207,3 +207,18 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\PocFlowerPower.Data.Contracts.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.Model.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\FlorariaPOCData.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\PocFlowerPower.Data.Contracts.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\POCFlowerPower.Model.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\FlorariaPOCData.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\FlowersShop\FlorariaPOC\FlorariaPOC.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml

@@ -54,7 +54,7 @@
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-            @Html.ActionLink("AddToBucketList", "AddToBucketList", item)
+            @Html.ActionLink("AddToBucketList", "AddToBucketList", new { productId = item.Id, numberOfProd =2})
         </td>
     </tr>
 }

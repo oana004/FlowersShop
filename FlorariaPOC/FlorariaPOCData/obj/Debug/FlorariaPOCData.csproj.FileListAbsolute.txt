@@ -58,3 +58,6 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\o
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.test_oana_serviciu.resources
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.testoana.resources
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.addimage.resources
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.test_oana_serviciu.resources
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.testoana.resources
+F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.addimage.resources

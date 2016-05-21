@@ -238,6 +238,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\SessionProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ProductImageService.cs" />
     <Compile Include="Startup.cs" />
@@ -364,7 +365,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>39632</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:39632/</IISUrl>
+          <IISUrl>http://localhost:39631/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

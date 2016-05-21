@@ -11,6 +11,7 @@ using PocFlowerPower.Data.Contracts;
 using POCFlowerPower.Common;
 using POCFlowerPower.Filters;
 using POCFlowerPower.Model;
+using POCFlowerPower.Models;
 using POCFlowerPower.Services;
 
 namespace POCFlowerPower.Controllers
@@ -165,11 +166,16 @@ namespace POCFlowerPower.Controllers
             return cover;
         }
 
-        [HttpPost, ActionName("AddToBucketList")]
-        [ValidateAntiForgeryToken]
-        public ActionResult AddToBucketList(Product product)
+ /*       [HttpPost, ActionName("AddToBucketList")]
+        [ValidateAntiForgeryToken]*/
+        public ActionResult AddToBucketList(int productId, int numberOfProd)
         {
-            Session.Add("BucketList",product);
+            var sessionProduct = new SessionProduct()
+            {
+                ProductId =  productId,
+                NrOfProducts =  numberOfProd
+            };
+            Session.Add("BucketListProd", sessionProduct);
             return RedirectToAction("Index");
         }
     }
