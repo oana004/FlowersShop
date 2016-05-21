@@ -28,10 +28,16 @@
         <th>
             @Html.DisplayNameFor(model => model.ProductImage)
         </th>
+        <th>
+            Number of Products:
+        </th>
         <th></th>
     </tr>
-
-@foreach (var item in Model) {
+   
+    
+@foreach (var item in Model)
+{
+   
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.ProductName)
@@ -45,16 +51,21 @@
         <td>
             @Html.DisplayFor(modelItem => item.ProductDescription)
         </td>
+
         <td>
-      
-            <img src="/Products/RetrieveImage/@item.Id" alt="" height=100 width=200 />
-     
+
+            <img src="/Products/RetrieveImage/@item.Id" alt="" height=100 width=200/>
+
+        </td>
+        <td>
+            <input type="numberOfProd" id="numberOfProd" name="txt" />
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-            @Html.ActionLink("AddToBucketList", "AddToBucketList", new { productId = item.Id, numberOfProd =2})
+           
+            @Html.ActionLink("AddToBascketList", "AddToBascketList", new { productId = item.Id, numberOfProd=2 })
         </td>
     </tr>
 }

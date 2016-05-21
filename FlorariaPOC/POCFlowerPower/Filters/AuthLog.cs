@@ -18,7 +18,7 @@ namespace POCFlowerPower.Filters
 
         public AuthLogAttribute()
         {
-            View = "AuthorizeFailed";
+             View = "AuthorizeFailed";
             _unitOfWorkManager = new UnitOfWorkManager();
             _uofContext = _unitOfWorkManager.GetUofContext();
         }

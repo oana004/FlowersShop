@@ -166,9 +166,9 @@ namespace POCFlowerPower.Controllers
             return cover;
         }
 
- /*       [HttpPost, ActionName("AddToBucketList")]
+ /*       [HttpPost, ActionName("AddToBascketList")]
         [ValidateAntiForgeryToken]*/
-        public ActionResult AddToBucketList(int productId, int numberOfProd)
+        public ActionResult AddToBascketList(int productId, int numberOfProd)
         {
             var sessionProduct = new SessionProduct()
             {
@@ -176,21 +176,21 @@ namespace POCFlowerPower.Controllers
                 NrOfProducts =  numberOfProd
             };
             List<SessionProduct> sessProd = new List<SessionProduct>();
-            var fromSession =  (List<SessionProduct>) Session["BucketListProd"];
+            var fromSession =  (List<SessionProduct>) Session["BascketListProd"];
             if (fromSession != null)
                 sessProd = fromSession;
             sessProd.Add(sessionProduct);
             Session.Clear();
-            Session.Add("BucketListProd", sessProd);
+            Session.Add("BascketListProd", sessProd);
 
             
             return RedirectToAction("Index");
         }
 
-       public ActionResult BucketList()
+       public ActionResult BascketList()
         {
             List<SessionProduct> sessionProduct = new List<SessionProduct>();
-           var fromSession = Session["BucketListProd"] as List<SessionProduct>;
+           var fromSession = Session["BascketListProd"] as List<SessionProduct>;
             if (fromSession != null)
                 sessionProduct = fromSession;
             List<ProductWithNumber> model = new List<ProductWithNumber>();
@@ -218,5 +218,23 @@ namespace POCFlowerPower.Controllers
         }
 
        
+        public ActionResult RemoveProduct(int id)
+        {
+            var fromSession = Session["BascketListProd"] as List<SessionProduct>;
+            foreach (var x in fromSession.ToList())
+            {
+                if (x.ProductId == id)
+                    if (fromSession != null) fromSession.Remove(x);
+            }
+            Session.Clear();
+            Session.Add("BascketListProd", fromSession);
+            return RedirectToAction("index");
+        }
+           
+
+        public ActionResult Order()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

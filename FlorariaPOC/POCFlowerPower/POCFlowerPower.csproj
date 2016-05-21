@@ -321,7 +321,7 @@
     <Content Include="Views\ProductFamilies\Details.cshtml" />
     <Content Include="Views\ProductFamilies\Edit.cshtml" />
     <Content Include="Views\ProductFamilies\Index.cshtml" />
-    <Content Include="Views\Products\BucketList.cshtml" />
+    <Content Include="Views\Products\BascketList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
