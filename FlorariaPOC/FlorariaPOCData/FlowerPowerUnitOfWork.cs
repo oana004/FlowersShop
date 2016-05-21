@@ -25,7 +25,7 @@ namespace FlorariaPOCData
 
         public IEFRepository<User> Users { get { return GetStandardRepo<User>(); } }
         public IEFRepository<Role> Roles { get { return GetStandardRepo<Role>(); } }
-        public IEFRepository<UserRole> UserRoles { get { return GetStandardRepo<UserRole>(); } }
+        public IEfUserRolesRepository UserRoles { get { return GetRepo<IEfUserRolesRepository>(); } }
         public IEFRepository<Order> Orders { get { return GetStandardRepo<Order>(); } }
         public IEFRepository<OrderProduct> OrderProducts { get { return GetStandardRepo<OrderProduct>(); } }
         public IEFRepository<Payment> Payments { get { return GetStandardRepo<Payment>(); } }

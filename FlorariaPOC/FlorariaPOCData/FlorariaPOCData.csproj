@@ -78,6 +78,7 @@
     <Compile Include="Common\RepositoryFactories.cs" />
     <Compile Include="Common\RepositoryProvider.cs" />
     <Compile Include="EFRepository.cs" />
+    <Compile Include="EFUserRoleRepository.cs" />
     <Compile Include="FlowerPowerDbContext.cs" />
     <Compile Include="FlowerPowerUnitOfWork.cs" />
     <Compile Include="Migrations\201605141814159_FirstInstall.cs" />

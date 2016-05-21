@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FlorariaPOCData;
+using PocFlowerPower.Data.Contracts;
 
 
 namespace EventsIT.Data.Common
@@ -17,9 +18,8 @@ namespace EventsIT.Data.Common
         {
             return new Dictionary<Type, Func<DbContext, object>>
                 {
-                /*   {typeof(IAttendanceRepository), dbContext => new AttendanceRepository(dbContext)},
-                   {typeof(IFlowerFamilyRepository), dbContext => new PersonRepository(dbContext)},
-                   {typeof(IEventRepository), dbContext => new EventRepository(dbContext)},*/
+                   {typeof(IEfUserRolesRepository), dbContext => new EFUserRoleRepository(dbContext)},
+           
                 };
         }
 

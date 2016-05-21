@@ -15,7 +15,7 @@ namespace PocFlowerPower.Data.Contracts
     
         IEFRepository<User> Users { get; }
         IEFRepository<Role> Roles { get; }
-        IEFRepository<UserRole> UserRoles { get; }
+        IEfUserRolesRepository UserRoles { get; }
         IEFRepository<Order> Orders { get; }
         IEFRepository<OrderProduct> OrderProducts { get; }
         IEFRepository<Payment> Payments { get; }

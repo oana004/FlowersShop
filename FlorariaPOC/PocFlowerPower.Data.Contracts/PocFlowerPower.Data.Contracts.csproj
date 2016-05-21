@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="IEFRepository.cs" />
+    <Compile Include="IEfUserRolesRepository.cs" />
     <Compile Include="IFlowerPowerUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
