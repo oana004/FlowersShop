@@ -8,6 +8,7 @@ namespace POCFlowerPower.Models
     public class SessionProduct
     {
         public int ProductId { get; set; }
-        public int NrOfProducts { get; set; }
+        public int NrOfProducts { get;  set; }
+
     }
 }

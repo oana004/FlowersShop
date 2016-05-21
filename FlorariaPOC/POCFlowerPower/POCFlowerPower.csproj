@@ -238,6 +238,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ProductWithNumber.cs" />
     <Compile Include="Models\SessionProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ProductImageService.cs" />
@@ -320,6 +321,7 @@
     <Content Include="Views\ProductFamilies\Details.cshtml" />
     <Content Include="Views\ProductFamilies\Edit.cshtml" />
     <Content Include="Views\ProductFamilies\Index.cshtml" />
+    <Content Include="Views\Products\BucketList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -175,8 +175,48 @@ namespace POCFlowerPower.Controllers
                 ProductId =  productId,
                 NrOfProducts =  numberOfProd
             };
-            Session.Add("BucketListProd", sessionProduct);
+            List<SessionProduct> sessProd = new List<SessionProduct>();
+            var fromSession =  (List<SessionProduct>) Session["BucketListProd"];
+            if (fromSession != null)
+                sessProd = fromSession;
+            sessProd.Add(sessionProduct);
+            Session.Clear();
+            Session.Add("BucketListProd", sessProd);
+
+            
             return RedirectToAction("Index");
         }
+
+       public ActionResult BucketList()
+        {
+            List<SessionProduct> sessionProduct = new List<SessionProduct>();
+           var fromSession = Session["BucketListProd"] as List<SessionProduct>;
+            if (fromSession != null)
+                sessionProduct = fromSession;
+            List<ProductWithNumber> model = new List<ProductWithNumber>();
+           foreach (var sessionObj in sessionProduct)
+           {
+               var product = _uofContext.Products.GetById(sessionObj.ProductId);
+               var prodWithNr = new ProductWithNumber()
+               {
+
+                   NrOfProducts = sessionObj.NrOfProducts,
+                   ProductFamily = product.ProductFamily,
+                   ProductName =  product.ProductName,
+                   ProductDescription = product.ProductDescription,
+                   Price=product.Price,
+                   DiscountVal = product.DiscountVal,
+                   ProductImage=product.ProductImage,
+                   Id = product.Id
+                   
+
+
+               };
+                model.Add(prodWithNr);
+           }
+           return View (model.ToList());
+        }
+
+       
     }
 }
