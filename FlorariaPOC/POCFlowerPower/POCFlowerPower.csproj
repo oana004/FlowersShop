@@ -225,6 +225,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductFamiliesController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\UserRolesController.cs" />
@@ -313,6 +314,11 @@
     <Content Include="Views\UserRoles\Details.cshtml" />
     <Content Include="Views\UserRoles\Edit.cshtml" />
     <Content Include="Views\UserRoles\Index.cshtml" />
+    <Content Include="Views\ProductFamilies\Create.cshtml" />
+    <Content Include="Views\ProductFamilies\Delete.cshtml" />
+    <Content Include="Views\ProductFamilies\Details.cshtml" />
+    <Content Include="Views\ProductFamilies\Edit.cshtml" />
+    <Content Include="Views\ProductFamilies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

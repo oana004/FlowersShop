@@ -50,7 +50,7 @@ namespace POCFlowerPower.Controllers
             return View(product);
         }
 
-     
+        [AuthLog(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
@@ -78,6 +78,7 @@ namespace POCFlowerPower.Controllers
 
             return View(product);
         }
+
 
         // GET: Products/Edit/5
         public ActionResult Edit(int? id)
@@ -162,6 +163,14 @@ namespace POCFlowerPower.Controllers
             var product = _uofContext.Products.GetById(id);
             byte[] cover = product.ProductImage;
             return cover;
+        }
+
+        [HttpPost, ActionName("AddToBucketList")]
+        [ValidateAntiForgeryToken]
+        public ActionResult AddToBucketList(Product product)
+        {
+            Session.Add("BucketList",product);
+            return RedirectToAction("Index");
         }
     }
 }
