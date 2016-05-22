@@ -1,0 +1,66 @@
+﻿@model POCFlowerPower.Model.Payment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Payment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CVV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CVV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccountNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccountNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CardExpirationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CardExpirationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CardHoulder)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CardHoulder)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrasactionStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrasactionStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentDetails)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

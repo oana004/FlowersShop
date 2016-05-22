@@ -225,9 +225,11 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PaymentsController.cs" />
     <Compile Include="Controllers\ProductFamiliesController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Controllers\UserRoles1Controller.cs" />
     <Compile Include="Controllers\UserRolesController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="DependencyInjection\BusinessServiceProvider.cs" />
@@ -322,6 +324,16 @@
     <Content Include="Views\ProductFamilies\Edit.cshtml" />
     <Content Include="Views\ProductFamilies\Index.cshtml" />
     <Content Include="Views\Products\BascketList.cshtml" />
+    <Content Include="Views\Payments\Create.cshtml" />
+    <Content Include="Views\Payments\Delete.cshtml" />
+    <Content Include="Views\Payments\Details.cshtml" />
+    <Content Include="Views\Payments\Edit.cshtml" />
+    <Content Include="Views\Payments\Index.cshtml" />
+    <Content Include="Views\UserRoles1\Create.cshtml" />
+    <Content Include="Views\UserRoles1\Delete.cshtml" />
+    <Content Include="Views\UserRoles1\Details.cshtml" />
+    <Content Include="Views\UserRoles1\Edit.cshtml" />
+    <Content Include="Views\UserRoles1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
