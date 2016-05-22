@@ -78,6 +78,7 @@
     <Compile Include="Common\RepositoryFactories.cs" />
     <Compile Include="Common\RepositoryProvider.cs" />
     <Compile Include="EFRepository.cs" />
+    <Compile Include="EFUserRepository.cs" />
     <Compile Include="EFUserRoleRepository.cs" />
     <Compile Include="FlowerPowerDbContext.cs" />
     <Compile Include="FlowerPowerUnitOfWork.cs" />
@@ -104,6 +105,10 @@
     <Compile Include="Migrations\201605201131390_addimage.cs" />
     <Compile Include="Migrations\201605201131390_addimage.Designer.cs">
       <DependentUpon>201605201131390_addimage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605212345147_datimenotmandatory.cs" />
+    <Compile Include="Migrations\201605212345147_datimenotmandatory.Designer.cs">
+      <DependentUpon>201605212345147_datimenotmandatory.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -140,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605201131390_addimage.resx">
       <DependentUpon>201605201131390_addimage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605212345147_datimenotmandatory.resx">
+      <DependentUpon>201605212345147_datimenotmandatory.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

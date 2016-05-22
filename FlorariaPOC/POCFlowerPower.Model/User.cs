@@ -27,7 +27,7 @@ CONSTRAINT[pk_userId] PRIMARY KEY CLUSTERED([UserId] ASC),
         [Required]
         public string Password { get; set; }
         public string FullName { get; set; }
-        public DateTime Birthdate { get; set; }
+        public DateTime? Birthdate { get; set; }
         public string Email { get; set; }
         public bool Active { get; set; }
 

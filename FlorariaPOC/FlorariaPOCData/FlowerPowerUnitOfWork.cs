@@ -23,7 +23,7 @@ namespace FlorariaPOCData
 
         // FlowerPower repositories
 
-        public IEFRepository<User> Users { get { return GetStandardRepo<User>(); } }
+        public IEfUserRepository Users { get { return GetRepo<IEfUserRepository>(); } }
         public IEFRepository<Role> Roles { get { return GetStandardRepo<Role>(); } }
         public IEfUserRolesRepository UserRoles { get { return GetRepo<IEfUserRolesRepository>(); } }
         public IEFRepository<Order> Orders { get { return GetStandardRepo<Order>(); } }

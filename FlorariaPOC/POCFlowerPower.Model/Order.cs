@@ -26,7 +26,7 @@ CONSTRAINT [fk_OrdeuserId] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Use
         public virtual User User { get; set; }
         public string OrderStatus { get; set; }
         public string OrderDetails { get; set; }
-        public DateTime OrderDate { get; set; }
+        public DateTime? OrderDate { get; set; }
         public virtual Payment Payment { get; set; }
 
     }

@@ -12,8 +12,8 @@ namespace PocFlowerPower.Data.Contracts
         void Commit();
 
         // Repositories
-    
-        IEFRepository<User> Users { get; }
+
+        IEfUserRepository Users { get; }
         IEFRepository<Role> Roles { get; }
         IEfUserRolesRepository UserRoles { get; }
         IEFRepository<Order> Orders { get; }

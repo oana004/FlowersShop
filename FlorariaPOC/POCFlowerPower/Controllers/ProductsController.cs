@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using FlorariaPOCData;
+using Microsoft.AspNet.Identity;
 using PocFlowerPower.Data.Contracts;
 using POCFlowerPower.Common;
 using POCFlowerPower.Filters;
@@ -234,7 +235,33 @@ namespace POCFlowerPower.Controllers
 
         public ActionResult Order()
         {
-            throw new NotImplementedException();
+            var username = HttpContext.User.Identity.GetUserName().ToString();
+            var user = _uofContext.Users.GetUserByUsername(username);
+            var order = new Order();
+            order.User = user;
+           // order.Payment = new Payment();
+            order.OrderDate = DateTime.Now;
+            order.OrderDetails = "nu avem detalii";
+            order.OrderStatus = "spre procesare";
+            _uofContext.Orders.Add(order);
+            _uofContext.Commit();
+
+            var id = order.Id;
+
+
+            var fromSession = Session["BascketListProd"] as List<SessionProduct>;
+            foreach(var prod in fromSession.ToList())
+            { var orderProduct = new OrderProduct();
+                var product = _uofContext.Products.GetById(prod.ProductId);
+                orderProduct.Product = product;
+                orderProduct.NumberOfProducts = prod.NrOfProducts;
+                orderProduct.Order = order;
+                _uofContext.OrderProducts.Add(orderProduct);
+                
+            }
+            _uofContext.Commit();
+            Session.Clear();
+            return RedirectToAction("index");
         }
     }
 }

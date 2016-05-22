@@ -19,7 +19,8 @@ namespace EventsIT.Data.Common
             return new Dictionary<Type, Func<DbContext, object>>
                 {
                    {typeof(IEfUserRolesRepository), dbContext => new EFUserRoleRepository(dbContext)},
-           
+                    {typeof(IEfUserRepository), dbContext => new EFUserRepository(dbContext)},
+
                 };
         }
 
