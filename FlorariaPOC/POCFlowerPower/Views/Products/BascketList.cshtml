@@ -5,65 +5,76 @@
     ViewBag.Title = "Bascket List";
 }
 
-<h2>Bascket List</h2>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.ProductName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Price)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DiscountVal)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ProductDescription)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ProductImage)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NrOfProducts)
-        </th>
-        <th></th>
-    </tr>
 
-    @foreach (var item in Model)
-    {
+
+    <h2>Bascket List</h2>
+
+    <table class="table">
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DiscountVal)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductDescription)
-            </td>
-            <td>
-
-                <img src="/Products/RetrieveImage/@item.Id" alt="" height=200 width=200/>
-
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NrOfProducts)
-            </td>
-
-            <td>
-
-                @Html.ActionLink("Remove product", "RemoveProduct", new {id = item.Id})
-
-            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiscountVal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NrOfProducts)
+            </th>
+            <th></th>
         </tr>
 
-        
-    }
-    <button>
-        @Html.ActionLink("Order", "Order") 
-    </button>
-</table>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiscountVal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductDescription)
+                </td>
+                <td>
+
+                    <img src="/Products/RetrieveImage/@item.Id" alt="" height=200 width=200 />
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NrOfProducts)
+                </td>
+
+                <td>
+
+                    @Html.ActionLink("Remove product", "RemoveProduct", new { id = item.Id })
+
+                </td>
+            </tr>
+        }
+        <button>
+            @Html.ActionLink("Order", "Order")
+        </button>
+    </table>
+
+<html>
+<head>
+    <style>
+        body {
+            background-color: #980000;
+            color: #181818;
+        }
+    </style>
+</head>

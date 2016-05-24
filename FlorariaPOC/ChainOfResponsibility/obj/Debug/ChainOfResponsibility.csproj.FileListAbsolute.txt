@@ -16,3 +16,9 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibi
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.exe
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.pdb
 F:\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe.config
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\ChainOfResponsibility\obj\Debug\ChainOfResponsibility.pdb

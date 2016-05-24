@@ -62,3 +62,33 @@ F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.
 F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.testoana.resources
 F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.addimage.resources
 F:\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.datimenotmandatory.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\FlorariaPOCData.dll.config
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\FlorariaPOCData.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\FlorariaPOCData.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\PocFlowerPower.Data.Contracts.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\POCFlowerPower.Model.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\PocFlowerPower.Data.Contracts.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\POCFlowerPower.Model.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.xml
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.FirstInstall.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.RemovedFKProductOrder.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.RemovedFKProductOrder1.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.test_oana_serviciu.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.testoana.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.addimage.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.Migrations.datimenotmandatory.resources
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.csproj.GenerateResource.Cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCData\obj\Debug\FlorariaPOCData.pdb

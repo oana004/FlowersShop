@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Build.Framework;
+using System.ComponentModel;
 
 namespace POCFlowerPower.Model
 {
@@ -24,12 +25,21 @@ CONSTRAINT [pk_PaymentId] PRIMARY KEY CLUSTERED ([PaymentId] ASC),
        [Required]
        public int CVV { get; set; }
        [Required]
-       public string AccountNumber { get; set; }
+       [DisplayName("Account Number")]
+        public string AccountNumber { get; set; }
        [Required]
-       public DateTime CardExpirationDate { get; set; }
+
+       [DisplayName("Card Expiration Date")]
+        public DateTime CardExpirationDate { get; set; }
        [Required]
-       public string CardHoulder { get; set; }
-       public string TrasactionStatus { get; set; }
-       public string PaymentDetails { get; set; }
+
+       [DisplayName("Card Houlder")]
+        public string CardHoulder { get; set; }
+
+        [DisplayName("Transaction Status")]
+        public string TrasactionStatus { get; set; }
+
+        [DisplayName("Payment Details")]
+        public string PaymentDetails { get; set; }
     }
 }

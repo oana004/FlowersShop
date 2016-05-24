@@ -22,3 +22,11 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\Singleton\Singlet
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.exe
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.pdb
 F:\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.exe.config
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\nunit.framework.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\nunit.framework.xml
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.pdb

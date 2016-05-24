@@ -8,3 +8,8 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstra
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.dll
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.pdb
 F:\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstractFactory.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\bin\Debug\FlorariaPOCAbstractFactory.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\FlorariaPOCAbstractFactory\obj\Debug\FlorariaPOCAbstractFactory.pdb

@@ -103,7 +103,8 @@ namespace FlorariaPOCData.Migrations
                         ProductDescription = c.String(),
                         ProductFamily_Id = c.Int(),
                         OrderProduct_Id = c.Int(),
-                    })
+                        ProductImage =  c.Byte(nullable: false)
+                })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.ProductFamily", t => t.ProductFamily_Id)
                 .ForeignKey("dbo.OrderProduct", t => t.OrderProduct_Id)

@@ -4,13 +4,33 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<style>
+    p.oblique {
+        font-style: oblique;
+    }
+</style>
+<br />
+<p class="oblique" style="font-size : 27px">"Florile sunt bijuteriile Terrei"</p>
 
-<p>
+
+<html>
+<head>
+    <style>
+        body {
+            background-color: #980000;
+            color: #181818;
+        }
+    </style>
+</head>
+
+
+<p1>
     <button>
-    @Html.ActionLink("Create New", "Create")
-        </button>
-</p>
+        @Html.ActionLink("Create New", "Create")
+    </button>
+ 
+</p1>
+
 <table class="table">
     <tr>
         <th>
@@ -21,6 +41,7 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.DiscountVal)
+        
         </th>
         <th>
             @Html.DisplayNameFor(model => model.ProductDescription)
@@ -33,41 +54,41 @@
         </th>
         <th></th>
     </tr>
-   
-    
-@foreach (var item in Model)
-{
-   
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProductName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DiscountVal)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProductDescription)
-        </td>
 
-        <td>
 
-            <img src="/Products/RetrieveImage/@item.Id" alt="" height=100 width=200/>
+    @foreach (var item in Model)
+    {
 
-        </td>
-        <td>
-            <input type="numberOfProd" id="numberOfProd" name="txt" />
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-           
-            @Html.ActionLink("AddToBascketList", "AddToBascketList", new { productId = item.Id, numberOfProd=2 })
-        </td>
-    </tr>
-}
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiscountVal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductDescription)
+            </td>
+
+            <td>
+
+                <img src="/Products/RetrieveImage/@item.Id" alt="" height=170 width=200 />
+
+            </td>
+            <td>
+                <input type="numberOfProd" id="numberOfProd" name="txt" />
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+
+                @Html.ActionLink("AddToBascketList", "AddToBascketList", new { productId = item.Id, numberOfProd = 2 })
+            </td>
+        </tr>
+    }
 
 </table>

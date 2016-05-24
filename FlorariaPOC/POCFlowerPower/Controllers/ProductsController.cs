@@ -31,7 +31,7 @@ namespace POCFlowerPower.Controllers
             _uofContext = _unitOfWorkManager.GetUofContext();
         }
         // GET: Products
-        [AuthLog(Roles = "Admin, Abc")]
+       //// [AuthLog(Roles = "Admin, Abc")]
         public ActionResult Index()
         { /*Session.a*/
             return View(db.Products.ToList());
@@ -52,7 +52,7 @@ namespace POCFlowerPower.Controllers
             return View(product);
         }
 
-        [AuthLog(Roles = "Admin")]
+      //  [AuthLog(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
@@ -235,7 +235,8 @@ namespace POCFlowerPower.Controllers
 
         public ActionResult Order()
         {
-            var username = HttpContext.User.Identity.GetUserName().ToString();
+           // var username = HttpContext.User.Identity.GetUserName().ToString();
+            var username = "paula@gmail.com";
             var user = _uofContext.Users.GetUserByUsername(username);
             var order = new Order();
             order.User = user;

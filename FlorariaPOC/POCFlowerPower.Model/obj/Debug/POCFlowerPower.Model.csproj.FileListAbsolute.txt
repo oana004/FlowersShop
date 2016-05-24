@@ -8,3 +8,8 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\POCFlowerPower.Mo
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\POCFlowerPower.Model\obj\Debug\POCFlowerPower.Model.dll
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\POCFlowerPower.Model\obj\Debug\POCFlowerPower.Model.pdb
 F:\FlowersShop\FlorariaPOC\POCFlowerPower.Model\obj\Debug\POCFlowerPower.Model.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\POCFlowerPower.Model\bin\Debug\POCFlowerPower.Model.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\POCFlowerPower.Model\bin\Debug\POCFlowerPower.Model.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\POCFlowerPower.Model\obj\Debug\POCFlowerPower.Model.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\POCFlowerPower.Model\obj\Debug\POCFlowerPower.Model.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\POCFlowerPower.Model\obj\Debug\POCFlowerPower.Model.pdb

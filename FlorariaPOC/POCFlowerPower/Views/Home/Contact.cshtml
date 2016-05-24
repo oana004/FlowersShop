@@ -1,17 +1,77 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<html>
+<head>
+    <style>
+        div.img {
+            margin: 5px;
+            float: right;
+            width: 400px;
+            height: 100px;
+            background-size: 100px 90px;
+        }
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+        img {
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <img src="@Url.Content("~/Content/florarie.jpg")" />
+    </div>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    <h2>@ViewBag.Title</h2>
+
+
+
+    <address>
+        Strada Ciric, nr. 52<br />
+        Tatarasi , Langa Baza Sportiva<br />
+        <abbr title="Phone">Telefon:</abbr>
+        0746.770.455
+    </address>
+
+    <address>
+        <strong>Office:</strong>   <a href="mailto:Office@FlowerPower.com">Office@FlowerPower.com</a><br />
+        <strong>Comenzi:</strong> <a href="mailto:Comenzi@FlowerPowercom">Comenzi@FlowerPower.com</a>
+    </address>
+
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+
+        <h1>Vino in locatia noastra!</h1>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2712.716089786805!2d27.613458315170217!3d47.16341462648132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafb8a266bd43d%3A0xf4ad104c4cf0f374!2sStrada+Ciric+52%2C+Ia%C8%99i!5e0!3m2!1sro!2sro!4v1463939232126" width="650" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </head>
+    <body>
+
+
+
+        <div id="map" style="width:400px;height:400px"></div>
+
+        <script>
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                right: new google.maps.LatLng(47.15984, 27.584953), zoom: 10
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        </script>
+
+    </body>
+</html>
+
+    <html>
+    <head>
+        <style>
+            body {
+                background-color: #980000;
+                color: #181818;
+            }
+        </style>
+    </head>
+
+

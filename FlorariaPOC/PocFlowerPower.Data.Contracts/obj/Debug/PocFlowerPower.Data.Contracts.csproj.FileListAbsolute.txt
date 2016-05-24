@@ -12,3 +12,10 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\PocFlowerPower.Da
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.csprojResolveAssemblyReference.cache
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.dll
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\PocFlowerPower.Data.Contracts.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\PocFlowerPower.Data.Contracts.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\POCFlowerPower.Model.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\bin\Debug\POCFlowerPower.Model.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\PocFlowerPower.Data.Contracts\obj\Debug\PocFlowerPower.Data.Contracts.pdb

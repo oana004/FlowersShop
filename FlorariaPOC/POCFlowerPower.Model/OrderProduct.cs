@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,7 +23,9 @@ CONSTRAINT [fk_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [dbo].[Orders] ([Orde
         public int Id { get; set; }
         public virtual Product Product { get; set; }
         public virtual Order Order { get; set; }
-        public int NumberOfProducts  { get; set; }
 
+        [DisplayName("Number of Products")]
+        public int NumberOfProducts  { get; set; }
+        
     }
 }

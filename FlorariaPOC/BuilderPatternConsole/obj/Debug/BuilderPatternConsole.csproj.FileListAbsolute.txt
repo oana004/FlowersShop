@@ -7,3 +7,8 @@ F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole
 F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.exe
 F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.pdb
 F:\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\BuilderPatternConsole\bin\Debug\BuilderPatternConsole.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\BuilderPatternConsole\obj\Debug\BuilderPatternConsole.pdb

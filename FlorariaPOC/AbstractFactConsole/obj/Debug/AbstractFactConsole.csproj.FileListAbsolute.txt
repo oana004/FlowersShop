@@ -14,3 +14,11 @@ E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConso
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.csprojResolveAssemblyReference.cache
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.exe
 E:\personal Docs\facultate\FlowersShop\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.exe.config
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\AbstractFactConsole.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\FlorariaPOCAbstractFactory.dll
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\bin\Debug\FlorariaPOCAbstractFactory.pdb
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.csprojResolveAssemblyReference.cache
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.exe
+D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\AbstractFactConsole\obj\Debug\AbstractFactConsole.pdb

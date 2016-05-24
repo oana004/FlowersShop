@@ -1,0 +1,52 @@
+﻿@model IEnumerable<POCFlowerPower.Model.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>My Orders</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderDetails)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </th>
+    
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDetails)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDate)
+        </td>
+     <td>
+            @Html.ActionLink("Pay", "Pay", new { id=item.Id }) |
+           
+        </td>
+    </tr>
+}
+
+</table>
+
+<html>
+<head>
+    <style>
+        body {
+            background-color: #980000;
+            color: #181818;
+        }
+    </style>
+</head>
