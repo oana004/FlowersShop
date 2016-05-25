@@ -235,8 +235,8 @@ namespace POCFlowerPower.Controllers
 
         public ActionResult Order()
         {
-           // var username = HttpContext.User.Identity.GetUserName().ToString();
-            var username = "paula@gmail.com";
+            var username = HttpContext.User.Identity.GetUserName().ToString();
+          
             var user = _uofContext.Users.GetUserByUsername(username);
             var order = new Order();
             order.User = user;

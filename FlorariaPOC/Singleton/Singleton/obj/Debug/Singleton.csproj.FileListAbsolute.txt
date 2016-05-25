@@ -30,3 +30,11 @@ D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Deb
 D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
 D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.exe
 D:\PROGRAMARE SEM 2 - MASTER\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.pdb
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.exe.config
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.exe
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\Singleton.pdb
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\nunit.framework.dll
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\bin\Debug\nunit.framework.xml
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.exe
+F:\Latest version_Paula\FlowersShop\FlorariaPOC\Singleton\Singleton\obj\Debug\Singleton.pdb
